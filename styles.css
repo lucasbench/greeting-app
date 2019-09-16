@@ -4,12 +4,13 @@ main{
     flex-direction: column;
     justify-content: center;
     margin: 0px;
-    height: 100%;
+    padding-top: 40px;
 }
 form:hover{
     opacity: 0.7;
 }
 #login{
+    transition: all 0.5s ease-in-out;
     justify-content: center;
     border-radius: 50%;
     border: 2px solid rgb(89, 141, 76);
@@ -20,7 +21,8 @@ form:hover{
     width: 300px;
 }
 #login:hover{
-    color: aquamarine;
+    transform: scale(1.4);
+    opacity: 0.7;
 }
 form{
     display: flex;
@@ -29,12 +31,60 @@ h1{
     text-align: center;
     color: whitesmoke;
 }
-h1:hover{
-    opacity: 0.5;
-    color: rgb(89, 141, 76);
-}
 input{
     border-radius: 5px;
     margin-left: 10px;
     margin-top: 5px;
+}
+button{
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
+h4{
+    color: white;
+}
+h5{
+    color: white;
+}
+p{
+    color: white;
+}
+section{
+    min-width: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#news{
+    margin-top: 40px;
+    background-color: black;
+    min-width: 300px;
+    opacity: 0.4;
+}
+#news:hover{
+    opacity: 0.7;
+}
+ul{
+    padding: 0;
+}
+ul li:hover{
+    color: rgb(89, 141, 76);
+}
+ul li{
+    display: block;
+}
+.card{
+    display: flex;
+    background-color: aliceblue;
+    width: 200px;
+    height: 120px;
 }
