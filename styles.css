@@ -1,0 +1,40 @@
+main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    height: 100%;
+}
+form:hover{
+    opacity: 0.7;
+}
+#login{
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid rgb(89, 141, 76);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+}
+#login:hover{
+    color: aquamarine;
+}
+form{
+    display: flex;
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+}
+h1:hover{
+    opacity: 0.5;
+    color: rgb(89, 141, 76);
+}
+input{
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
