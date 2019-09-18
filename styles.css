@@ -1,4 +1,4 @@
-main{
+main {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -7,10 +7,10 @@ main{
     padding-top: 40px;
     height: 100%;
 }
-form:hover{
+form:hover {
     opacity: 0.7;
 }
-#login{
+.login {
     transition: all 0.5s ease-in-out;
     justify-content: center;
     border-radius: 50%;
@@ -21,44 +21,43 @@ form:hover{
     height: 300px;
     width: 300px;
 }
-#login:hover{
-    transform: scale(1.2);
-    opacity: 0.7;
+.login:hover {
+    transform: scale(1.6);
 }
-form{
+form {
     display: flex;
 }
-h1{
+h1 {
     text-align: center;
     color:  white;
 }
-input{
+input {
     border-radius: 5px;
     margin-left: 10px;
     margin-top: 5px;
 }
-button{
+button {
     height: 20px;
     margin-top: 30px;
     margin-right: 10px;
     float: right;  
 }
-h2{
+h2 {
     color: white;
 }
-h3{
+h3 {
     color: white;
 }
-h4{
+h4 {
     color: white;
 }
-h5{
+h5 {
     color: white;
 }
-p{
+p {
     color: white;
 }
-section{
+section {
     min-width: 300px;
     text-align: center;
     display: flex;
@@ -66,27 +65,36 @@ section{
     align-items: center;
     flex-direction: column;
 }
-#news{
+.news {
+    position: relative;
     margin-top: 40px;
     background-color: black;
     min-width: 300px;
-    opacity: 0.4;
 }
-#news:hover{
-    opacity: 0.7;
+.news:hover{
+    opacity: 0.8;
 }
-ul{
+ul {
     padding: 0;
 }
-ul li:hover{
-    color: rgb(89, 141, 76);
-}
-ul li{
+ul li {
     display: block;
 }
-.card{
+.card {
     display: flex;
     background-color: aliceblue;
     width: 200px;
     height: 120px;
+}
+.notifications{
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: 90px;
+    border: 1px solid red;
+    border-radius: 50%;
+    font-size: .7rem;
 }
