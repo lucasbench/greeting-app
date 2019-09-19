@@ -2,7 +2,6 @@ main {
     align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin: 0px;
     padding-top: 40px;
     height: 100%;
@@ -14,7 +13,7 @@ form:hover {
     transition: all 0.5s ease-in-out;
     justify-content: center;
     border-radius: 50%;
-    border: 2px solid rgb(89, 141, 76);
+    border: 2px solid rgb(185, 18, 18);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -22,14 +21,14 @@ form:hover {
     width: 300px;
 }
 .login:hover {
-    transform: scale(1.6);
+    transform: scale(1.2);
 }
 form {
     display: flex;
 }
 h1 {
     text-align: center;
-    color:  white;
+    color:  rgb(185, 18, 18);
 }
 input {
     border-radius: 5px;
@@ -38,63 +37,62 @@ input {
 }
 button {
     height: 20px;
-    margin-top: 30px;
-    margin-right: 10px;
-    float: right;  
-}
-h2 {
-    color: white;
-}
-h3 {
-    color: white;
-}
-h4 {
-    color: white;
-}
-h5 {
-    color: white;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: border-box;  
 }
 p {
-    color: white;
+    display: inline-block;
+    padding: 10px;
+    font-size: .7rem;
+    overflow: hidden;
+    color: rgb(185, 18, 18);
 }
 section {
-    min-width: 300px;
+    max-width: 400px;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 .news {
     position: relative;
     margin-top: 40px;
-    background-color: black;
-    min-width: 300px;
+    max-width: 300px;
 }
-.news:hover{
+ul li:hover{
     opacity: 0.8;
 }
 ul {
     padding: 0;
 }
-ul li {
-    display: block;
-}
-.card {
-    display: flex;
-    background-color: aliceblue;
-    width: 200px;
-    height: 120px;
+ul li{
+    margin-top: 5px;
+    max-height: 280px;
+    overflow: hidden;
+    border: 1px solid rgb(185, 18, 18);
 }
 .notifications{
-    background-color: red;
+    background-color: rgb(185, 18, 18);
     width: 15px;
     height: 15px;
     color: white;
     position: absolute;
-    top: 5px;
-    right: 90px;
-    border: 1px solid red;
+    top: -3px;
+    right: 80px;
+    border: 1px solid rgb(185, 18, 18);
     border-radius: 50%;
     font-size: .7rem;
+}
+img{
+    padding-top: 10px;
+    width: 250px;
+    height: 150px;
+}
+.card{
+    max-height: 300px;
+    padding: 10px;
+}
+.date{
+    color: rgb(185, 18, 18);
+    padding: 10px;
+    float: right;
 }
