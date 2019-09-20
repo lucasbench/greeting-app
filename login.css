@@ -1,0 +1,48 @@
+section {
+    max-width: 400px;
+    text-align: center;
+}
+.news {
+    position: relative;
+    margin-top: 40px;
+    max-width: 300px;
+}
+ul li:hover{
+    opacity: 0.8;
+}
+ul {
+    padding: 0;
+}
+ul li{
+    margin-top: 5px;
+    max-height: 280px;
+    overflow: hidden;
+    border: 1px solid rgb(185, 18, 18);
+}
+.notifications{
+    background-color: rgb(185, 18, 18);
+    width: 15px;
+    height: 15px;
+    color: white;
+    position: absolute;
+    top: -3px;
+    right: 80px;
+    border: 1px solid rgb(185, 18, 18);
+    border-radius: 50%;
+    font-size: .7rem;
+}
+img{
+    padding-top: 10px;
+    width: 250px;
+    height: 150px;
+}
+.card{
+    max-height: 300px;
+    padding: 10px;
+}
+.news__date{
+    color: rgb(185, 18, 18);
+    padding: 10px;
+    float: right;
+    font-size: .8rem;
+}
