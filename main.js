@@ -1,31 +1,30 @@
 
 
-
+    
     //create function with conditionals
     function whoIsOlder(person1, person2) {
-        if (person1.age > person2.age) {
-            console.log("luca is younger then Ciak", person1.age - person2.age);
-        } else if 
-            (person1.age > myFriend.age){
-            console.log("Luca is older then Gigi", person1.age - myFriend.age)
-        } else 
-            (person2.age > myFriend.age) 
-            console.log("Ciak is older then Gigi", person2.age - myFriend.age)
+        if (me.age > mySibling.age) {
+            console.log("luca is younger then Ciak", me.age - mySibling.age);
+        } else if (me.age > myFriend.age) {
+            console.log("Luca is older then Gigi", me.age - myFriend.age);
+        } else {
+            console.log("Ciak is older then Gigi", mySibling.age - myFriend.age);
+        }
     }
   
-    //create objects
-    var me = {
-        name : "Luca",
-        age : 40
-    }
-    var mySibling = {
-        name : "Ciak",
-        age : 42
-    }
-    var myFriend = {
-        name : "Gigi",
-        age : 33
-    }
+        //create objects
+        var me = {
+            name : "luca",
+            age : 40
+        }
+        var mySibling = {
+            name : "ciak",
+            age : 42
+        }
+        var myFriend = {
+            name : "gigi",
+            age : 40
+        }
    
       //call the function for the objects
       whoIsOlder(me, mySibling);
