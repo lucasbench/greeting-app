@@ -1,15 +1,53 @@
 
-
     
+    var me = {
+        name: 'Luca',
+        age: 40
+    };
+
+    var gabi = {
+        name: 'Gabi',
+        age: 34
+    };
+
+    var max = {
+        name: 'max',
+        age: 2
+    };
+    var oldestMember = [2,34,40];
+
+    var family = [me, gabi, max];
+    function drinkAge (){
+        for (i = 0; i < family.length; i++){
+            console.log(family[i].name + 'is' + family[i].age + 'years old');
+            if (family[i].age > 21){
+                console.log(family[i].name + 'is old enought to drink');
+            } 
+        }
+        for(i = oldestMember; i < oldestMember[i]; i++) {        
+                console.log(family[i].name + 'is the oldest');
+            }
+            
+        
+    }
+    drinkAge();
+    
+    
+    /*
+    var message = '';
+    var ageDifference;
     //create function with conditionals
     function whoIsOlder(person1, person2) {
-        if (me.age > mySibling.age) {
-            console.log("luca is younger then Ciak", me.age - mySibling.age);
-        } else if (me.age > myFriend.age) {
-            console.log("Luca is older then Gigi", me.age - myFriend.age);
+        if (person1.age > person2.age) {
+            ageDifference =  (person1.age - person2.age);
+            message = person1.name + 'is older then' + person2.name + 'of' + ageDifference + 'years';
+        } else if (person1.age < person2.age) {
+            ageDifference =  (person1.age - person2.age);
+            message = person1.name + 'is younger then' + person2.name + 'of' + ageDifference + 'years';
         } else {
-            console.log("Ciak is older then Gigi", mySibling.age - myFriend.age);
+            message = person1.age = person2.age + ' they have the same age ';
         }
+        console.log(message);
     }
   
         //create objects
@@ -23,7 +61,7 @@
         }
         var myFriend = {
             name : "gigi",
-            age : 40
+            age : 2
         }
    
       //call the function for the objects
@@ -31,7 +69,18 @@
       whoIsOlder(me, myFriend);
       whoIsOlder(mySibling, myFriend);
 
-        /* function addTwoNumbers (num1,num2) {
+
+
+
+      var wines = ['riesling', 'chardonnay', 'cabernet','merlot','pinot noir','sauvignon blanc'];
+
+      for (var i = 0; i < wines.length; i++){
+          console.log(wines[i]);
+      }
+
+
+
+     function addTwoNumbers (num1,num2) {
         var result = num1 + num2;
         return result;
     };
@@ -90,7 +139,7 @@
 
 
 
-    call the function to actually create a person
+    call the function to create a person
 createPerson("Luca", 40, true, "father", true);
 createPerson("Gabi", 35, false, "mother", true);
 createPerson("Max", 1.5, false, "son", false);
