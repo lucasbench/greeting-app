@@ -1,9 +1,6 @@
 
     
-    var me = {
-        name: 'Luca',
-        age: 40
-    };
+  
 
     var gabi = {
         name: 'Gabi',
@@ -14,19 +11,28 @@
         name: 'max',
         age: 2
     };
-    var oldestMember = [2,34,40];
-
+    var me = {
+        name: 'Luca',
+        age: 40
+    };
+    
     var family = [me, gabi, max];
+    
     function drinkAge (){
+
         for (i = 0; i < family.length; i++){
+
             console.log(family[i].name + 'is' + family[i].age + 'years old');
+
             if (family[i].age > 21){
+
                 console.log(family[i].name + 'is old enought to drink');
-            } 
-        }
-        for(i = oldestMember; i < oldestMember[i]; i++) {        
-                console.log(family[i].name + 'is the oldest');
+
+            } else {
+
+                console.log( Math.max(family[i].age) )
             }
+        }
             
         
     }
