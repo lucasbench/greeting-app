@@ -17,6 +17,7 @@
     };
     
     var family = [me, gabi, max];
+    var age = [2, 34, 40];
     
     function drinkAge (){
 
@@ -30,7 +31,7 @@
 
             } else {
 
-                console.log( family[i].name + 'is' + Math.max(family[i].age) + 'and the oldest' )
+                console.log( Math.max(age[i]) + 'is the oldest' );
             }
         }
             
